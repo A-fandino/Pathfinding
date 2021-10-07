@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PathFinding</title>
+    <script src="script.js" defer></script>
+    <script src="find_path.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <input type="radio" name="color" id="black" value="black" checked></input>
+            <label for="black"></label>
+            
+            <input type="radio" name="color" id="cyan" value="cyan"></input>
+            <label for="cyan"></label>
+            
+            <input type="radio" name="color" id="white" value="white"></input>
+            <label for="white"></label>
+
+            <input type="radio" name="color" id="orange" value="orange"></input>
+            <label for="orange"></label>
+
+            <button id="find">Find!</button>
+            <button id="clear" onclick=clearColor()>Clear</button>
+        </div>
+        <div class="grid">
+        </div>
+    </div>
+</body>
+</html>
