@@ -12,8 +12,11 @@ That's an A\* Pathfinding algorithm coded with Vanilla JavaScript.
 - To start the algorithm just press "Find!"
 
 ⬛ **Wall:** Blocks the way so it cannot be used as path (Unlimited)
+
 🟦 **Start:** Marks the starting point of the path (Max. 1)
+
 🟧 **End:** Marks the ending point of the path (Max. 1)
+
 ⬜ **Eraser:** Resets the cells to default (Unlimited)
 
 ## Examples
